@@ -4,7 +4,49 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>tiny bit</title>
+		<title>Tiny-Bit Coding::Home</title>
+		<script src="index.js" defer></script>
+		<script src="header-nav.js"></script>
+		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body></body>
+	<body>
+		<header id="header" class="text-center">header</header>
+		<nav id="nav">
+			<ul class="navigation">
+				<a href="index.html">
+					<button class="nav-btn" id="homeBtn">Home</button>
+				</a>
+				<a href="documents.html">
+					<button class="nav-btn" id="documentsBtn">Documents</button>
+				</a>
+				<a href="#Settings">
+					<button class="nav-btn" id="settingsBtn">Settings</button>
+				</a>
+				<a href="about.html">
+					<button class="nav-btn" id="aboutBtn">About us</button> </a
+				><a href="#User">
+					<button class="nav-btn" id="userBtn">User</button>
+				</a>
+			</ul>
+		</nav>
+		<main>
+			<dialog id="settingsDialog">
+				<h2>Settings:</h2>
+				<div>
+					<l>Theme:</l>
+					<button
+						id="theme-toggle"
+						class="btn btn-link btn-sm ml-2 small"
+						type="button"
+					>
+						<span class="themeSelectorBtn" id="themeName"></span>
+					</button>
+				</div>
+				<button id="hide" class="alert">Close Settings</button>
+			</dialog>
+
+			<div w3-include-html="src/pages/test.html"></div>
+		</main>
+		<footer class="text-center">Created by Shuvo</footer>
+	</body>
 </html>

@@ -1,0 +1,284 @@
+:root {
+	/*! red colors */
+	--IndianRed: #cd5c5c;
+	--LightCoral: #f08080;
+	--Salmon: #fa8072;
+	--Crimson: #dc143c;
+	--Red: #ff0000;
+	--DarkRed: #8b0000;
+
+	/* !pink color */
+	--Pink: #ffc0cb;
+	--LightPink: #ffb6c1;
+	--HotPink: #ff69b4;
+	--DeepPink: #ff1493;
+	--MediumVioletRed: #c71585;
+	--PaleVioletRed: #db7093;
+
+	/* !orange color  */
+	--LightSalmon: #ffa07a;
+	--Coral: #ff7f50;
+	--Tomato: #ff6347;
+	--OrangeRed: #ff4500;
+	--DarkOrange: #ff8c00;
+	--Orange: #ffa500;
+
+	/* !yellow color */
+	--Gold: #ffd700;
+	--Yellow: #ffff00;
+	--LightYellow: #ffffe0;
+	--LemonChiffon: #fffacd;
+	--LightGoldenrodYellow: #fafad2;
+	--PapayaWhip: #ffefd5;
+	--Moccasin: #ffe4b5;
+	--PeachPuff: #ffdab9;
+	--PaleGoldenrod: #eee8aa;
+	--Khaki: #f0e68c;
+	--DarkKhaki: #bdb76b;
+
+	/* !purple color */
+	--Lavender: #e6e6fa;
+	--Thistle: #d8bfd8;
+	--Plum: #dda0dd;
+	--Violet: #ee82ee;
+	--Orchid: #da70d6;
+	--Fuchsia: #ff00ff;
+	--Magenta: #ff00ff;
+	--MediumOrchid: #ba55d3;
+	--MediumPurple: #9370db;
+	--RebeccaPurple: #663399;
+	--BlueViolet: #8a2be2;
+	--DarkViolet: #9400d3;
+	--DarkOrchid: #9932cc;
+	--DarkMagenta: #8b008b;
+	--Purple: #800080;
+	--Indigo: #4b0082;
+	--SlateBlue: #6a5acd;
+	--DarkSlateBlue: #483d8b;
+	--MediumSlateBlue: #7b68ee;
+
+	/* !green color */
+	--GreenYellow: #adff2f;
+	--Chartreuse: #7fff00;
+	--LawnGreen: #7cfc00;
+	--Lime: #00ff00;
+	--LimeGreen: #32cd32;
+	--PaleGreen: #98fb98;
+	--LightGreen: #90ee90;
+	--MediumSpringGreen: #00fa9a;
+	--SpringGreen: #00ff7f;
+	--MediumSeaGreen: #3cb371;
+	--SeaGreen: #2e8b57;
+	--ForestGreen: #228b22;
+	--Green: #008000;
+	--DarkGreen: #006400;
+	--YellowGreen: #9acd32;
+	--OliveDrab: #6b8e23;
+	--Olive: #808000;
+	--DarkOliveGreen: #556b2f;
+	--MediumAquamarine: #66cdaa;
+	--DarkSeaGreen: #8fbc8b;
+	--LightSeaGreen: #20b2aa;
+	--DarkCyan: #008b8b;
+	--Teal: #008080;
+
+	/* !blue color */
+	--Aqua: #00ffff;
+	--Cyan: #00ffff;
+	--LightCyan: #e0ffff;
+	--PaleTurquoise: #afeeee;
+	--Aquamarine: #7fffd4;
+	--Turquoise: #40e0d0;
+	--MediumTurquoise: #48d1cc;
+	--DarkTurquoise: #00ced1;
+	--CadetBlue: #5f9ea0;
+	--SteelBlue: #4682b4;
+	--LightSteelBlue: #b0c4de;
+	--PowderBlue: #b0e0e6;
+	--LightBlue: #add8e6;
+	--SkyBlue: #87ceeb;
+	--LightSkyBlue: #87cefa;
+	--DeepSkyBlue: #00bfff;
+	--DodgerBlue: #1e90ff;
+	--CornflowerBlue: #6495ed;
+	--MediumSlateBlue: #7b68ee;
+	--RoyalBlue: #4169e1;
+	--Blue: #0000ff;
+	--MediumBlue: #0000cd;
+	--DarkBlue: #00008b;
+	--Navy: #000080;
+	--MidnightBlue: #191970;
+
+	/* !brown color */
+	--Cornsilk: #fff8dc;
+	--BlanchedAlmond: #ffebc4;
+	--Bisque: #ffe4c4;
+	--NavajoWhite: #ffdead;
+	--Wheat: #f5deb3;
+	--BurlyWood: #deb887;
+	--Tan: #d2b48c;
+	--RosyBrown: #bc8f8f;
+	--SandyBrown: #f4a460;
+	--Goldenrod: #daa520;
+	--DarkGoldenrod: #b8860b;
+	--Peru: #cd853f;
+	--Chocolate: #d2691e;
+	--SaddleBrown: #8b4513;
+	--Sienna: #a0522d;
+	--Brown: #a52a2a;
+	--Maroon: #800000;
+
+	/* !white color */
+	--White: #ffffff;
+	--Snow: #fffafa;
+	--HoneyDew: #f0fff0;
+	--MintCream: #f5fffa;
+	--Azure: #f0ffff;
+	--AliceBlue: #f0f8ff;
+	--GhostWhite: #f8f8ff;
+	--WhiteSmoke: #f5f5f5;
+	--SeaShell: #fff5ee;
+	--Beige: #f5f5dc;
+	--OldLace: #fdf5e6;
+	--FloralWhite: #fffaf0;
+	--Ivory: #fffff0;
+	--AntiqueWhite: #faebd7;
+	--Linen: #faf0e6;
+	--LavenderBlush: #fff0f5;
+	--MistyRose: #ffe4e1;
+
+	/* !gray color */
+	--Gainsboro: #dcdcdc;
+	--LightGray: #d3d3d3;
+	--Silver: #c0c0c0;
+	--DarkGray: #a9a9a9;
+	--Gray: #808080;
+	--DimGray: #696969;
+	--LightSlateGray: #778899;
+	--SlateGray: #708090;
+	--DarkSlateGray: #2f4f4f;
+	--Black: #000000;
+
+	/* ?some details */
+	--background-color: #fff;
+	--alternate-background-color: #f7f7f9;
+	--text-color: #121416d8;
+	--text-color-light: #777676bb;
+	--link-color: #543fd7;
+	--masthead-color: #543fd7;
+	--masthead-text: #fff;
+	--button-color: #263238;
+	--button-text: #fff;
+	--bs-font-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--bs-font-serif: Georgia, serif;
+	--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+		"Liberation Mono", "Courier New", monospace;
+}
+
+html[data-theme="light"] {
+	--background-color: #fff;
+	--header-color: var(--Indigo);
+	--nav-color: var(--RebeccaPurple);
+	--nav-btn-color: var(--Magenta);
+	--footer-color: var(--RoyalBlue);
+	--text-color: #121416d8;
+	--link-color: #543fd7;
+	--backdrop-color: #af1265;
+}
+
+html[data-theme="dark"] {
+	--background-color: var(--DarkGray);
+	--header-color: #404258;
+	--nav-color: #474e68;
+	--nav-btn-color: #ea80fc;
+	--footer-color: #50577a;
+	--text-color: #f7f8f8;
+	--link-color: #828fff;
+	--backdrop-color: #ac3d2bc9;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	display: grid;
+	width: 100%;
+	grid:
+		"header" auto
+		"nav" auto
+		"main" 3fr
+		"footer" auto;
+	gap: 0px;
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+header {
+	grid-area: header;
+	background-color: var(--header-color);
+	font-size: 2rem;
+}
+nav {
+	grid-area: nav;
+	background-color: var(--nav-color);
+}
+.navigation {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.nav-btn {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background-color: var(--nav-btn-color);
+	font-size: large;
+	border-radius: 10%;
+}
+.settings {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+dialog {
+	border-radius: 5px;
+	height: 50%;
+	width: 50%;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: var(--header-color);
+}
+dialog::backdrop {
+	background-color: rgba(var(--backdrop-color), var(0.7));
+}
+main {
+	grid-area: main;
+	background-color: var(--background-color);
+}
+footer {
+	grid-area: footer;
+	background-color: var(--footer-color);
+}
+.alert {
+	background-color: red;
+}
+.ok {
+	background-color: green;
+}
+.text-center {
+	text-align: center;
+}
+.themeSelectorBtn {
+	background-color: var(--background-color);
+}
+.no-display {
+	display: none;
+}
