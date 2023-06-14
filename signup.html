@@ -4,48 +4,37 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>About Us</title>
-		<script src="index.js" defer></script>
-		<script src="header-nav.js" defer></script>
 		<link rel="stylesheet" href="style.css" />
+		<title>Signup</title>
+		<style>
+			form {
+				display: flex;
+				flex-direction: column;
+			}
+			.gender {
+				display: flex;
+				flex-direction: row;
+				align-items: start;
+				justify-content: space-between;
+			}
+			.agreements > label,
+			.agreements {
+				padding: 10px;
+			}
+			.flex-collumn {
+				display: flex;
+				flex-direction: column;
+			}
+			.flex-row {
+				display: flex;
+				flex-direction: row;
+			}
+		</style>
 	</head>
 	<body>
-		<header id="header" class="text-center">header</header>
-		<nav id="nav">
-			<ul class="navigation">
-				<a href="index.html">
-					<button class="nav-btn" id="homeBtn">Home</button>
-				</a>
-				<a href="documents.html">
-					<button class="nav-btn" id="documentsBtn">Documents</button>
-				</a>
-				<a href="#Settings">
-					<button class="nav-btn" id="settingsBtn">Settings</button>
-				</a>
-				<a href="about.html">
-					<button class="nav-btn" id="aboutBtn">About us</button> </a
-				><a href="#User">
-					<button class="nav" id="userBtn">
-						<img src="src/icons/svg/user-icon.svg" alt="User" />
-					</button>
-				</a>
-			</ul>
-		</nav>
 		<main>
-			<dialog id="settingsDialog">
-				<h2>Settings:</h2>
-				<div>
-					<l>Theme:</l>
-					<button
-						id="theme-toggle"
-						class="btn btn-link btn-sm ml-2 small"
-						type="button"
-					>
-						<span class="themeSelectorBtn" id="themeName"></span>
-					</button>
-				</div>
-				<button id="hide" class="alert">Close Settings</button>
-			</dialog>
+			<a href="index.html">home</a>
+			<button id="signupBtn">Sigun up</button>
 			<dialog id="signupDialog">
 				<div class="signup text-center">
 					<p>Signup</p>
@@ -123,8 +112,25 @@
 					</form>
 				</div>
 			</dialog>
-			<div w3-include-html="src/pages/about.html"></div>
 		</main>
-		<footer class="text-center">Created by Shuvo</footer>
+		<script>
+			let signupForm = document.getElementById("signupForm");
+			signupForm.addEventListener("submit", (e) => {
+				e.preventDefault();
+				console.table(e);
+			});
+			const signupDialog = document.getElementById("signupDialog");
+			const signupBtn = document.getElementById("signupBtn");
+			const signupCloseBtn = document.getElementById("signupCloseBtn");
+			function user() {
+				signupBtn.addEventListener("click", () => {
+					signupDialog.show();
+				});
+				signupCloseBtn.onclick = function () {
+					signupDialog.close();
+				};
+			}
+			user();
+		</script>
 	</body>
 </html>

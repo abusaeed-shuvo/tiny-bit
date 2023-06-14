@@ -185,7 +185,7 @@ html[data-theme="light"] {
 	--footer-color: var(--RoyalBlue);
 	--text-color: #121416d8;
 	--link-color: #543fd7;
-	--backdrop-color: #af1265;
+	--backdrop-color: #611d41;
 }
 
 html[data-theme="dark"] {
@@ -196,7 +196,7 @@ html[data-theme="dark"] {
 	--footer-color: #50577a;
 	--text-color: #f7f8f8;
 	--link-color: #828fff;
-	--backdrop-color: #ac3d2bc9;
+	--backdrop-color: #8a2617c9;
 }
 
 * {
@@ -223,12 +223,15 @@ header {
 nav {
 	grid-area: nav;
 	background-color: var(--nav-color);
+	display: flex;
+	flex-direction: column;
 }
 .navigation {
 	margin: 0px;
 	padding: 0px;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	justify-content: space-evenly;
 }
 .nav-btn {
@@ -260,6 +263,8 @@ dialog::backdrop {
 	background-color: rgba(var(--backdrop-color), var(0.7));
 }
 main {
+	margin: 5px;
+	padding: 5px;
 	grid-area: main;
 	background-color: var(--background-color);
 }
@@ -281,4 +286,30 @@ footer {
 }
 .no-display {
 	display: none;
+}
+
+#userBtn > img {
+	height: 25px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+.gender {
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	justify-content: space-between;
+}
+.agreements > label,
+.agreements {
+	padding: 10px;
+}
+.flex-collumn {
+	display: flex;
+	flex-direction: column;
+}
+.flex-row {
+	display: flex;
+	flex-direction: row;
 }

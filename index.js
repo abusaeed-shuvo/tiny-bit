@@ -47,6 +47,7 @@ function settings () {
   }
 }
 settings()
+
 var toggle = document.getElementById('theme-toggle')
 const themeName = document.getElementById('themeName')
 
@@ -70,3 +71,21 @@ toggle.onclick = function () {
 }
 
 themeName.innerText = localStorage.getItem('theme')
+
+let signupForm = document.getElementById('signupForm')
+signupForm.addEventListener('submit', e => {
+  e.preventDefault()
+  console.table(e)
+})
+const signupDialog = document.getElementById('signupDialog')
+const signupBtn = document.getElementById('userBtn')
+const signupCloseBtn = document.getElementById('signupCloseBtn')
+function user () {
+  signupBtn.onclick = function () {
+    signupDialog.showModal()
+  }
+  signupCloseBtn.onclick = function () {
+    signupDialog.close()
+  }
+}
+user()
